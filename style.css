@@ -1,0 +1,118 @@
+/* CSS files add styling rules to your content */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Serif Pro", serif;
+  line-height: 180%;
+}
+h1 {
+  font-size: 2.3em;
+  font-family: 'Bad Script', cursive;
+  color: #000000;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 1em;
+  font-style: italic;
+  padding: 0;
+  color: gray
+}
+h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size:1.8em;
+  margin: 0 0 .8em 0;
+}
+p {
+  font-size:1em;
+  margin: .3em 0 0 0;
+}
+div {
+  margin: 0;
+  padding: 0;
+}
+b {
+  font-family: "Source Serif Pro", serif;
+  font-weight: bolder;
+}
+a,
+a:hover,
+a:visited {
+  color: #0071bc;
+}
+#map {
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: -5;
+}
+#header {
+  margin: 3vh auto;
+  width: 90vw;
+  padding: .1vh;
+  text-align: center;
+  border-radius:20px;
+  border: 3px solid black;
+}
+#footer {
+  width: 100%;
+  min-height: 5vh;
+  padding: 2vh 2vh 2vh 2vh;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 13px;
+  background-color: rgb(255, 255, 255, 0.8);
+}
+#features {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  z-index: 100;
+}
+.centered {
+  width: 50vw;
+  margin: 0 auto;
+}
+.lefty {
+  width: 33vw;
+  margin-left: 5vw;
+}
+.righty {
+  width: 33vw;
+  margin-left: 62vw;
+}
+.light {
+  color: #444;
+  background-color: #efefef;
+}
+.dark {
+  color: #fafafa;
+  background-color: #444;
+}
+.step {
+  padding-bottom: 50vh;
+  /* margin-bottom: 10vh; */
+  opacity: 0.25;
+}
+.step.active {
+  opacity: 1;
+}
+
+.step div {
+  padding: 1em 2em;
+  line-height: 25px;
+  border-radius:20px;
+  border: 2px solid black;
+}
+
+.step img {
+  width: 100%;
+  box-shadow: 1px 1px 3px silver;
+}
+
+@media (max-width: 750px) {
+  #features {
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
