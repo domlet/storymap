@@ -1,6 +1,6 @@
 var config = {
   style: 'mapbox://styles/domlet/ck97zlegt58vl1isuifb0l5hg',
-  accessToken: 'pk.eyJ1IjoiZG9tbGV0IiwiYSI6ImNrOTgzdDBwbzFkYWIzaG9td2pyNTM2NW0ifQ.ZAAFcLbUAtck-SjDoFcZQg',
+  accessToken: 'pk.eyJ1IjoiZG9tbGV0IiwiYSI6ImNsMWRzYzNtZDBjemYza24yN3lnOHA0bmIifQ.HgGTeQO78NU_IKOO7mnbBQ',
   showMarkers: false,
   theme: 'light',
   alignment: 'left',
